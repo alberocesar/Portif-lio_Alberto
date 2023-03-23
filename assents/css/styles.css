@@ -357,25 +357,30 @@ img {
 }
 
 /* ===== CONTATO =====*/
-.contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
+form {
+  width: 500px;
+  padding: 15px;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: #8a95b4;
 }
 
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
+form fieldset {
+  border: 0;
+  padding: 10px;
+
 }
+
+form fieldset label {
+  color: #14160b;
+  display: block;
+}
+
+form fieldset input, textarea {
+  width: 100%;
+  padding: 5px;
+}
+
 
 /* ===== FOOTER =====*/
 .footer {
